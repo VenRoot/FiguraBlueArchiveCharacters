@@ -243,8 +243,8 @@ Figuraは[Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)、[
 
 1. 使用したいModローダーをインストールし、Modを使用できる状態にします。
 2. [Figura](https://modrinth.com/mod/figura)を追加します。Modの依存関係にご注意ください。
-3. [リリースページ](https://github.com/Gakuto1112/FiguraBlueArchiveCharacters/releases)に移動します。
-   - [レポジトリのトップページ](https://github.com/Gakuto1112/FiguraBlueArchiveCharacters)の右側からも移動できます。
+3. [リリースページ](https://github.com/VenRoot/FiguraModel/releases)に移動します。
+   - [レポジトリのトップページ](https://github.com/VenRoot/FiguraModel)の右側からも移動できます。
 4. リリースノート内の「Assets」の項目にアバターのzipファイルが添付されているので、お好みのアバターをダウンロードします。
 5. 圧縮ファイルを展開し、中にあるアバターデータを取り出します。
 6. `<マインクラフトのゲームフォルダ>/figura/avatars/`にアバターのデータを配置します。
@@ -259,8 +259,8 @@ Figuraは[Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)、[
 ## 注意事項
 - このアバターを使用して発生した、いかなる損害の責任も負いかねます。
 - このアバターは、デフォルトのリソースパックでの動作を想定しています。また、他MODの使用は想定していません。想定動作環境外ではテクスチャの不整合、防具が表示されない/非表示にならない、といった不具合が想定されます。この場合の不具合は対応しない場合がありますのでご了承下さい。
-- 不具合がありましたら、[Issues](https://github.com/Gakuto1112/FiguraBlueArchiveCharacters/issues)までご連絡下さい。
-- アバター関係で私に連絡したい方は[Discussions](https://github.com/Gakuto1112/FiguraBlueArchiveCharacters/discussions)または、[Discord](https://discord.com/)でご連絡下さい。私のDiscordのアカウント名は「vinny_san」で表示名は「ばにーさん」です。[FiguraのDiscordサーバー](https://discord.gg/figuramc)での表示名は「BunnySan/ばにーさん」です。
+- 不具合がありましたら、[Issues](https://github.com/VenRoot/FiguraModel/issues)までご連絡下さい。
+- アバター関係で私に連絡したい方は[Discussions](https://github.com/VenRoot/FiguraModel/discussions)または、[Discord](https://discord.com/)でご連絡下さい。私のDiscordのアカウント名は「vinny_san」で表示名は「ばにーさん」です。[FiguraのDiscordサーバー](https://discord.gg/figuramc)での表示名は「BunnySan/ばにーさん」です。
 
 ---
 
