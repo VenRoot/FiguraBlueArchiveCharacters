@@ -2,3 +2,5 @@
 .luarc.json
 avatar.code-workspace
 .github/readme_generator/node_modules/
+.*
+!.luarc.json
