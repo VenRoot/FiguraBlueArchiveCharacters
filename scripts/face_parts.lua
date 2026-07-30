@@ -45,7 +45,7 @@ FaceParts = {
 		TIRED = {0, 6},
 		TIRED_INVERSED = {8, 6},
 		NORMAL_INVERSED = {16, 6},
-		CLOSED = {24, 6},
+		CLOSED = {28, 6},
 		UNEQUAL = {32, 6}
 	},
 	MouthUV = {
@@ -125,7 +125,7 @@ events.TICK:register(function ()
 			FaceParts.setEmotion("CLOSED", "CLOSED", "NONE", 2, false)
 		end
 		FaceParts.BlinkCount = 0
-	elseif not client.isPaused() then
+	elseif not client:isPaused() then
 		FaceParts.BlinkCount = FaceParts.BlinkCount + 1
 	end
 	if FaceParts.ComplexionCount == 0 then

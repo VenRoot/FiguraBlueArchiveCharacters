@@ -20,7 +20,13 @@ Ears = {
 	---@param force boolean trueにすると以前のタイマーが残っていても強制的に適用する。
 	setEarsRot = function (earRot, duration, force)
 		if Ears.EarsRotCount == 0 or force then
-			for _, modelPart in ipairs({models.models.main.Avatar.Head.Ears, models.models.main.Avatar.Head.Ears, models.models.main.Avatar.Head.ArmorH.Helmet.Ears, models.models.main.Avatar.Head.CKnitH.Ears, models.models.main.Avatar.Head.CFoxHoodH.Ears}) do
+			local head = models.models.main.Avatar.Head
+			for _, modelPart in pairs({
+				head.Ears,
+				head.ArmorH and head.ArmorH.Helmet and head.ArmorH.Helmet.Ears,
+				head.CKnitH and head.CKnitH.Ears,
+				head.CFoxHoodH and head.CFoxHoodH.Ears
+			}) do
 				modelPart:setRot(Ears.EarsRotTypeID[earRot])
 			end
 			Ears.EarsRotCount = duration

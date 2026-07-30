@@ -249,7 +249,7 @@ Costume = {
 				modelPart:setVisible(false)
 			end
 			Costume.setCostumeTextureOffset(10)
-			models.models.main.Avatar.Head.CFoxHoodH:setUVPixels(0, 0)
+			models.models.main.Avatar.Head.CFoxHoodH:setUVPixels(0, 8)
 			HairAccessory.visible(Armor.ArmorVisible[1])
 			Apron.disable()
 		elseif costume == "FOX_HOODIE_WHITE" then
@@ -261,7 +261,7 @@ Costume = {
 				modelPart:setVisible(false)
 			end
 			Costume.setCostumeTextureOffset(11)
-			models.models.main.Avatar.Head.CFoxHoodH:setUVPixels(0, 8)
+			models.models.main.Avatar.Head.CFoxHoodH:setUVPixels(0, 16)
 			HairAccessory.visible(Armor.ArmorVisible[1])
 			Apron.disable()
 		elseif costume == "TRACKSUIT" then
