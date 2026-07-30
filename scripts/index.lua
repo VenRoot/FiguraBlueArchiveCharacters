@@ -63,6 +63,7 @@ events.ENTITY_INIT:register(function ()
 	Warden = require("scripts.warden")
 	Afk = require("scripts.afk")
 	Christmas = require("scripts.christmas")
+	HurtSound = require("scripts.hurt_sound")
 end)
 
 --ENTITY_INITを待たず読み込むクラス
